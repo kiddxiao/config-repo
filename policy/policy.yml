@@ -1,0 +1,16 @@
+example.property: "I AM IN THE DEFAULT"
+spring.jpa.database: "MySQL"
+spring.datasource.platform: "policy"
+#Enable the logging of all the generated SQL statements to the console
+spring.jpa.show-sql: "true"
+#Format the generated SQL statement to make it more readable, but takes up more screen space
+spring.jpa.format_sql: "true"
+#Hibernate will put comments inside all generated SQL statements to hint what’s the generated SQL trying to do
+spring.jpa.use_sql_comments: "true"
+spring.database.driverClassName: "com.mysql.jdbc.Driver"
+spring.datasource.url: "jdbc:mysql://localhost:3306/policy?useSSL=false"
+spring.datasource.username: "root"
+spring.datasource.password: "{cipher}c0366601a54046e4487e161fbe4bfed1bfe91a3d5bc2e28fdaea40b7080edb2f"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQLDialect"
